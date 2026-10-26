@@ -4,7 +4,9 @@ Workspaces for Omarchy, as little bento boxes. Each workspace in the bar is a
 tiny screen showing its windows where they really are, with their app icons —
 and the trackpad moves you around them the way macOS does.
 
-![BentoSpaces in the Omarchy bar: each workspace a box with its windows in their real layout](preview.png)
+![BentoSpaces: Mission Control with every workspace, and the bar's workspace mini-maps](preview.png)
+
+![The bar: the accent mark slides to the workspace you switch to, and a moved window lands in its new box](docs/bar.gif)
 
 ## In the bar
 
@@ -20,6 +22,8 @@ and the trackpad moves you around them the way macOS does.
 
 The workspace you are on gets the bar's own accent mark, sliding across as
 you switch. Workspaces 1–6 are always shown, empty or not (`alwaysShowUpTo`).
+
+![A desktop with BentoSpaces in the bar](docs/desktop.png)
 
 ## Trackpad
 
@@ -41,7 +45,11 @@ it, click a thumbnail to go there, drag a window onto a thumbnail to move it —
 or onto **+ New** once every workspace is in use. Arrow keys, Tab and Enter
 work too; Escape or a click on empty space closes it.
 
+![Mission Control: every workspace along the top, the current one's windows below](docs/mission-control.png)
+
 ## Settings
+
+<img src="docs/settings.png" alt="The BentoSpaces settings popup" width="320" align="right">
 
 Right-click the workspaces. Every switch applies at once, without reloading
 Hyprland: three / four fingers, workspace swipe, short swipe (macOS-style
@@ -60,6 +68,8 @@ Two settings live only in the widget's entry in `~/.config/omarchy/shell.json`:
 omarchy bar set io.github.jjnuthuagen.bentospaces alwaysShowUpTo 8 --json
 omarchy bar set io.github.jjnuthuagen.bentospaces iconPack Tabler-Ember
 ```
+
+<br clear="right">
 
 ## Install
 
