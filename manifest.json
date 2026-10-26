@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.jjnuthuagen.bentospaces",
+  "name": "BentoSpaces",
+  "version": "1.0.0",
+  "author": "James John",
+  "license": "MIT",
+  "description": "Workspaces as little bento boxes in the bar — a live mini-map of each workspace's windows — plus macOS-style trackpad control: 1:1 workspace swipes, Mission Control on swipe up, Shift + swipe to carry windows, pinch to fullscreen and optional edge resize.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BentoSpaces.qml"
+  },
+  "barWidget": {
+    "displayName": "BentoSpaces",
+    "description": "Workspace mini-maps, trackpad gestures and Mission Control",
+    "category": "Compositor",
+    "defaultSection": "left",
+    "allowMultiple": false
+  }
+}
